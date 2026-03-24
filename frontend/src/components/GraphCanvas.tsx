@@ -337,7 +337,7 @@ export default function GraphCanvas({
       .transition()
       .call(
         d3.zoom<SVGSVGElement, unknown>().scaleBy as unknown as (
-          selection: d3.Selection<SVGSVGElement, unknown, null, undefined>,
+          transition: d3.Transition<SVGSVGElement, unknown, null, undefined>,
           k: number,
         ) => void,
         1.3,
@@ -350,7 +350,7 @@ export default function GraphCanvas({
       .transition()
       .call(
         d3.zoom<SVGSVGElement, unknown>().scaleBy as unknown as (
-          selection: d3.Selection<SVGSVGElement, unknown, null, undefined>,
+          transition: d3.Transition<SVGSVGElement, unknown, null, undefined>,
           k: number,
         ) => void,
         0.77,
