@@ -1,0 +1,11 @@
+# backend data directory — DuckDB file and CSV source data
+*.duckdb
+*.duckdb.wal
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/

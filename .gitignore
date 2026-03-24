@@ -1,0 +1,31 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+backend/.env
+.env
+
+# DuckDB — rebuilt from JSONL on startup; no need to commit
+backend/data/*.duckdb
+backend/data/*.duckdb.wal
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# VS Code
+.vscode/github-accounts.json
+
+# Logs
+*.log
+npm-debug.log*
