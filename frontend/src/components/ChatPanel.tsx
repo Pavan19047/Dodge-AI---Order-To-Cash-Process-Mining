@@ -145,7 +145,7 @@ export default function ChatPanel({
               <span className="w-3 h-3 border-2 border-indigo-300 border-t-transparent rounded-full animate-spin" />
             ) : (
               <svg viewBox="0 0 16 16" className="w-4 h-4 fill-indigo-100">
-                <path d="M2 8l12-6-4 6 4 6z" />
+                <path d="M14 8L2 2l4 6-4 6z" />
               </svg>
             )}
           </button>
